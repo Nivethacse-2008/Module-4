@@ -11,8 +11,17 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
+
+lst = [1, 2, 3]
+
+try:
+    print(lst[5])
+except IndexError:
+    print("IndexError: Attempted to access an index that does not exist.")
 
 ## Output
 
+<img width="1186" height="265" alt="image" src="https://github.com/user-attachments/assets/3ddfe6e6-c0bf-4644-bf79-a710e8a50f98" />
+
 ## Result
+the code is verified
